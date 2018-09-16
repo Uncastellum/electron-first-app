@@ -1,0 +1,104 @@
+/*----------------------------------------*/
+.bttn-closewin {
+  -webkit-app-region: no-drag;
+  border: none;
+  width: 25px;
+  height: 25px;
+  transition-duration: 0.3s;
+  background-color: #1c1c1c;
+  color: #FFFFFF;
+}
+.bttn-closewin:hover {
+  background-color: #F22E2E;
+  color: #FFFFFF;
+}
+
+/*----------------------------------------*/
+.bttn-min {
+  -webkit-app-region: no-drag;
+  border: none;
+  width: 25px;
+  height: 25px;
+  transition-duration: 0.3s;
+  background-color: #1c1c1c;
+  color: #FFFFFF;
+}
+.bttn-min:hover {
+  background-color: #404040;
+}
+
+/*----------------------------------------*/
+.bttn-sndbar {
+  -webkit-app-region: no-drag;
+  float: right;
+  border: none;
+  width: 25px;
+  height: 25px;
+  transition-duration: 0.3s;
+  background-color: #292929;
+  color: #FFFFFF;
+}
+.bttn-sndbar:hover {
+  background-color: #404040;
+}
+
+/*----------------------------------------*/
+.bttn-botbar {
+  display:flex;
+  align-items: center;
+  padding: 0px;
+  border: none;
+  width: 32px;
+  height: 32px;
+  transition-duration: 0.3s;
+  background-color: #292929;
+}
+/*.bttn-botbar:hover {
+    background-color: #404040;
+}*/
+/*----------------------------------------*/
+/*-----------------Arrow------------------*/
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/*----------------------------------------*/
+.home-bttn {
+  border: none;
+  width: 175px;
+  height: 62px;
+  padding: 0px;
+  position: relative;
+  top: 4px;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  background-color: #292929;
+  color: #FFFFFF;
+}
+.home-bttn:hover {
+  background-color: #333333;
+}
+/*----------------------------------------*/
+.tab-bttn {
+  border: none;
+  width: 175px;
+  height: 55px;
+  padding: 0px;
+  transition-duration: 0.3s;
+  background-color: #292929;
+  color: #FFFFFF;
+}
+.tab-bttn:hover {
+  background-color: #333333;
+}
+/*----------------------------------------*/
+.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

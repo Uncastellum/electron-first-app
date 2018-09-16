@@ -1,0 +1,66 @@
+#title-bar {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+  width: auto;
+}
+
+#primary-bar {
+  background-color: #1c1c1c;
+  top: 0px;
+  left: 0px;
+  height: 25px;
+  width: 175px;
+  position: fixed;
+}
+
+#secondary-bar {
+  top:0;
+  left: 175px;
+  right: 0px;
+  height: 25px;
+  width: auto;
+  position: fixed;
+  overflow: hidden;
+}
+
+#menu {
+  top: 25px;
+  bottom: 0px;
+  left: 0px;
+  width: 175px;
+  height: auto;
+  position: fixed;
+}
+
+#tab{
+  left: 175px;
+  right: 0px;
+  top: 25px;
+  bottom: 0px;
+  width: auto;
+  height: auto;
+  position: fixed;
+  background-color: #666666;
+}
+
+#bottom-bar {
+  bottom: 0px;
+  left: 0px;
+  height: 32px;
+  width: 175px;
+  position: fixed;
+}
+
+#home{
+  height: 70px;
+  width: 175px;
+}
+
+#bttn-menu-bar{
+  height: 300px;
+  width: 175px;
+  background-color: #333333;
+}
