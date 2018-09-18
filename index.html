@@ -52,6 +52,7 @@
               var win = BrowserWindow.getFocusedWindow();
               if (!win.isFullScreenable()){
                 var list = win.getSize();
+                win.setMaximumSize(99999999, 99999999);
                 win.setSize(Math.floor(list[1]*4/3), list[1]);
                 win.setFullScreenable(true);
               }
@@ -76,6 +77,7 @@
                     var window = BrowserWindow.getFocusedWindow();
                     var list = window.getSize();
                     window.setSize(174, list[1]);
+                    window.setMaximumSize(174, 99999999);
                     window.setFullScreenable(false);
                 });
 
