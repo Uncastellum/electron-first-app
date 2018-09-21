@@ -102,3 +102,11 @@ i {
   opacity: 0.3;
   cursor: not-allowed;
 }
+/*----------------------------------------*/
+.active{
+  background-color: #F2B33D;
+}
+
+.active:hover {
+  background-color: #F2B33D;
+}
