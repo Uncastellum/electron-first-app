@@ -91,6 +91,7 @@ i {
   height: 55px;
   padding: 0px;
   transition-duration: 0.3s;
+  overflow: hidden;
   background-color: #292929;
   color: #FFFFFF;
 }

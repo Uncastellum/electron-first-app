@@ -13,19 +13,19 @@
 .img-home-bttn{
   width: 54px;
   height: 54px;
+  border-radius: 50%;
   margin-left: 12px;
   margin-right: 8px;
   float: left;
 }
 
-.text-home-bttn{
+.text-home-bttn p{
   font-family: "Courier New", Courier, monospace;
   font-size: 35px;
   font-weight: bold;
-}
-.text-home-bttn p{
-  position: relative;
-  top: 8px;
+  /*vertical-align: middle;
+  /*position: relative;
+  top: 8px;*/
   margin: 0px;
 }
 
@@ -33,12 +33,14 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 8px;
+  float: left;
 }
 
-.text-tab-bttn{}
 .text-tab-bttn p{
   font-family: "Courier New", Courier, monospace;
-  font-size: 35px;
+  font-size: 15px;
   font-weight: bold;
   position: relative;
   top: 8px;

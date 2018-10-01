@@ -16,7 +16,7 @@ function createWindow () {
     resizable: true,
     minWidth: 174,
     minHeight: 400,
-    frame: false,
+    frame: true,
     titleBarStyle: 'hidden'
   })
       //frame: false PARA QUITAR BORDES
