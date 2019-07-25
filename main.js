@@ -16,16 +16,13 @@ function createWindow () {
     resizable: true,
     minWidth: 174,
     minHeight: 400,
-    frame: true,
+    frame: false,
     titleBarStyle: 'hidden'
   })
       //frame: false PARA QUITAR BORDES
       //titleBarStyle: 'customButtonsOnHover' PARA BOTONES CUSTOMIZADOS(cierre minimizar etc)
 
-
   mainWindow.setIcon('./resources/cloud48.png')
-
-
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')

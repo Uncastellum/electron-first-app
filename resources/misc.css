@@ -38,13 +38,22 @@
   float: left;
 }
 
+
+.text-tab-bttn{
+  top: 0px;
+  width: 135px;
+  height: 55px;
+  float: right;
+}
 .text-tab-bttn p{
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
   font-weight: bold;
-  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  /*position: relative;
   top: 8px;
-  margin: 0px;
+  margin: 0px;*/
 }
 
 #iframe {
